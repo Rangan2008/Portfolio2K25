@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rangan Das | Portfolio</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Loading Animation -->
+  <div class="loader">
+    <div class="loader-inner">
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <nav id="navbar">
+    <div class="left">RD</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> <span>Home</span></a></li>
+      <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> <span>About</span></a></li>
+      <li><a href="#academics" class="nav-link"><i class="fas fa-graduation-cap"></i> <span>Academics</span></a></li>
+      <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> <span>Skills</span></a></li>
+      <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> <span>Projects</span></a></li>
+      <li><a href="#achievements" class="nav-link"><i class="fas fa-trophy"></i> <span>Achievements</span></a></li>
+      <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+      <button id="darkModeToggle" class="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+    </ul>
+  </nav>
+  <button class="chatbot-toggle" id="chatbotToggle">
+      <i>💬</i> <!-- You can use an icon font or SVG here -->
+    </button>
+
+    <div class="chatbot" id="chatbot">
+      <div class="chat-header">
+        <span>Chat Assistant</span>
+        <button class="close-chatbot">&times;</button>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <!-- Messages will appear here -->
+      </div>
+      <div class="chat-input-container">
+        <input type="text" id="chat-input" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+    </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="text-wrapper">
+        <h1 class="hero-title" style="color: white;">Rangan Das</h1>
+        <div class="animated-text">
+          <span class="static-text">I'm a</span>
+          <ul class="dynamic-text">
+            <li><span>Web Developer</span></li>
+            <li><span>Tech Enthusiast</span></li>
+            <li><span>Problem Solver</span></li>
+          </ul>
+        </div>
+        <p class="hero-subtitle">Turning ideas into elegant digital solutions</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="#projects" class="btn btn-secondary">View Projects</a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="about-container">
+      <div class="about-image">
+        <div class="image-wrapper">
+          <img src="MYSELF.jpg" alt="Rangan Das" class="profile-img">
+          <div class="image-border"></div>
+          <div class="image-overlay"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="about-description">
+          👋 Hi, I'm Rangan Das, a BCA student at the Institute of Engineering and Management, Kolkata. I'm deeply
+          passionate about Web Development, Blockchain, and AI, and I love bringing ideas to life through real-world
+          projects. 💡
+        </p>
+        <p class="about-description">
+          From building a DeFi Lending Platform using XDC & Solidity, to crafting a mental wellness tool like Mindpal, I
+          enjoy blending technology with creativity. I'm also an active contributor to the open-source community and
+          constantly strive to learn, grow, and make a positive impact. 🚀
+        </p>
+        <div class="about-actions">
+          <a href="Resume College 2025 june.pdf" class="btn btn-cv" download target="_blank">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics" class="academics">
+    <div class="section-header">
+      <h2 class="section-title">Academics</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="academic-cards">
+      <div class="academic-card">
+        <div class="card-front">
+          <div class="card-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Bachelor of Computer Application</h3>
+          <p>IEM Kolkata</p>
+          <p class="card-highlight"><strong>CGPA:</strong> 9.18 (1st Year)</p>
+        </div>
+        <div class="card-back">
+          <p>
+            I am pursuing BCA at IEM Kolkata, exploring web dev, blockchain & AI, and building real-world projects like
+            DeFi and Mindpal.
+          </p>
+        </div>
+      </div>
+
+      <div class="academic-card">
+        <div class="card-front">
+          <div class="card-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <h3>Class 12</h3>
+          <p>Serampore Vivekananda Academy</p>
+          <p class="card-highlight"><strong>Percentage:</strong> 70.5% (2023)</p>
+        </div>
+        <div class="card-back">
+          <p>
+            Focused on Computer Science and Maths. Developed problem-solving skills and laid the foundation for my
+            programming interest.
+          </p>
+        </div>
+      </div>
+
+      <div class="academic-card">
+        <div class="card-front">
+          <div class="card-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3>Class 10</h3>
+          <p>Gospel Home School</p>
+          <p class="card-highlight"><strong>Percentage:</strong> 80.5% (2021)</p>
+        </div>
+        <div class="card-back">
+          <p>
+            Built curiosity in technology and creativity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <h2 class="section-title">Skills</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <h3>HTML</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="95"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-css3-alt"></i>
+        </div>
+        <h3>CSS</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="90"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-js"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="85"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-python"></i>
+        </div>
+        <h3>Python</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="80"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-java"></i>
+        </div>
+        <h3>Java</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="75"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>C/C++</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="85"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fas fa-database"></i>
+        </div>
+        <h3>SQL</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="80"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-github"></i>
+        </div>
+        <h3>GitHub</h3>
+        <div class="skill-progress">
+          <div class="progress-bar" data-level="90"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <h2 class="section-title">Projects</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-image">
+          <img
+            src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="Amazon Clone">
+        </div>
+        <div class="project-content">
+          <h3><a href="https://rangan2008.github.io/Landing-page-Amazon/" target="_blank">Amazon Clone</a></h3>
+          <p>Designed and developed a responsive e-commerce website interface inspired by Amazon, using HTML and CSS
+          </p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img
+            src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="Mindpal">
+        </div>
+        <div class="project-content">
+          <h3><a href="https://abhirik.github.io/MindPal/" target="_blank">Mindpal - Mental Wellness</a></h3>
+          <p>A wellness platform integrating mindfulness tools and chatbot-based support.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img
+            src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="DeFi Platform">
+        </div>
+        <div class="project-content">
+          <h3>DeFi Lending Platform</h3>
+          <p>Developing a blockchain-based lending platform using XDC, Solidity, and APIs during internship at CCoE,
+            UEM.</p>
+          <div class="project-tags">
+            <span>Blockchain</span>
+            <span>Solidity</span>
+            <span>XDC</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img
+            src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="Small Projects">
+        </div>
+        <div class="project-content">
+          <h3><a href="https://github.com/Rangan2008/Project--java-and-python--" target="_blank">Small Projects
+              Collection</a></h3>
+          <p>Created small games and applications using C++, Java & Python including Tic Tac Toe and a GUI-based task
+            manager.</p>
+          <div class="project-tags">
+            <span>C++</span>
+            <span>Java</span>
+            <span>Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="section-header">
+      <h2 class="section-title">Achievements</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="achievements-container">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>Participant in Hackolution Hackathon</h3>
+            <p>Participated in a 36-hour college hackathon.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>3rd Place in 3MST at eHaCON 2025</h3>
+            <p>Secured 3rd position in the Three Minutes Scholarly Thesis presentation competition.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Contributor in Social Winter of Code 2024</h3>
+            <p>Contributed to open-source projects during this coding event.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Participant in Hackolution Hackathon</h3>
+            <p>Participated in a 12-hour college hackathon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2 class="section-title-2">Get In Touch</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <p>ranganiembca2026@gmail.com</p>
+          <a href="mailto:ranganiembca2026@gmail.com" class="contact-link">Send Message</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h3>Phone</h3>
+          <p>+91 9433903038</p>
+          <a href="tel:+919433903038" class="contact-link">Call Me</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Location</h3>
+          <p>Kolkata, India</p>
+          <a href="https://maps.google.com/?q=Kolkata" target="_blank" class="contact-link">View Map</a>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/Rangan2008" target="_blank" class="social-icon">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/rangandas2008/" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100093151997913" target="_blank" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/rangan2008/" target="_blank" class="social-icon">
+          <i class="fab fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">RD</div>
+      <p class="footer-text">Turning ideas into reality through code and creativity.</p>
+      <div class="footer-links">
+        <a href="#home"><i class="fas fa-home"></i>Home</a>
+        <a href="#about"><i class="fas fa-user"></i> About</a>
+        <a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a>
+        <a href="#contact"><i class="fas fa-envelope"></i>Contact</a>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2025 Rangan Das. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
